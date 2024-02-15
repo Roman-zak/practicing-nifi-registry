@@ -1,6 +1,6 @@
 flows:
-  1ccc1530-64ad-4c29-9a67-11c24675b81d: {ver: 1, file: git-check.snapshot, comments: git-check
-      init, author: anonymous, created: 1707990896421, flowName: git-check, flowDesc: git-check
+  1ccc1530-64ad-4c29-9a67-11c24675b81d: {ver: 2, file: git-check.snapshot, comments: removed
+      processor, author: anonymous, created: 1707991629763, flowName: git-check, flowDesc: git-check
       desc}
 layoutVer: 1
 bucketId: feb2364e-24fa-47bd-83af-e08baba4fa25
