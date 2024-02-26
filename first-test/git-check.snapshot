@@ -83,7 +83,8 @@
         } ],
         "remoteProcessGroups" : [ ],
         "variables" : {
-          "testVar" : "12345"
+          "testVar" : "54321",
+          "testVar2" : "98765"
         }
       },
       "flowEncodingVersion" : "1.0",
