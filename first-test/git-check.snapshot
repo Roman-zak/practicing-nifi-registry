@@ -82,7 +82,9 @@
           "yieldDuration" : "1 sec"
         } ],
         "remoteProcessGroups" : [ ],
-        "variables" : { }
+        "variables" : {
+          "testVar" : "12345"
+        }
       },
       "flowEncodingVersion" : "1.0",
       "parameterContexts" : { },
