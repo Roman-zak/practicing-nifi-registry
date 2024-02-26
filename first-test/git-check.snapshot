@@ -16,18 +16,94 @@
         "flowFileConcurrency" : "UNBOUNDED",
         "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
         "funnels" : [ ],
-        "identifier" : "16b61d1c-6afa-3b7a-93b7-b16a0d5e782a",
+        "identifier" : "c99a4183-0f2d-32f6-8e6c-bb852e4725a1",
         "inputPorts" : [ ],
-        "instanceIdentifier" : "a7daca33-018d-1000-96f3-8677791cc81a",
+        "instanceIdentifier" : "e56cc3c1-018d-1000-e24c-555f0c1fd112",
         "labels" : [ ],
         "name" : "ScheduleNotifications",
         "outputPorts" : [ ],
         "position" : {
-          "x" : 496.0,
-          "y" : 272.0
+          "x" : -16.0,
+          "y" : 336.0
         },
         "processGroups" : [ ],
         "processors" : [ {
+          "autoTerminatedRelationships" : [ ],
+          "backoffMechanism" : "PENALIZE_FLOWFILE",
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.25.0"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "c99a4183-0f2d-32f6-8e6c-bb852e4725a1",
+          "identifier" : "c2bb7af5-23c9-3e3e-8448-4a6cf78ec21b",
+          "instanceIdentifier" : "e56cedae-018d-1000-9fee-d384ce63ab16",
+          "maxBackoffPeriod" : "10 mins",
+          "name" : "AttributesToCSV",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 1072.0001071546333,
+            "y" : 181.00001016119063
+          },
+          "properties" : {
+            "null-value" : "false",
+            "include-core-attributes" : "true",
+            "destination" : "flowfile-attribute",
+            "include-schema" : "false"
+          },
+          "propertyDescriptors" : {
+            "null-value" : {
+              "displayName" : "Null Value",
+              "identifiesControllerService" : false,
+              "name" : "null-value",
+              "sensitive" : false
+            },
+            "include-core-attributes" : {
+              "displayName" : "Include Core Attributes",
+              "identifiesControllerService" : false,
+              "name" : "include-core-attributes",
+              "sensitive" : false
+            },
+            "attributes-regex" : {
+              "displayName" : "Attributes Regular Expression",
+              "identifiesControllerService" : false,
+              "name" : "attributes-regex",
+              "sensitive" : false
+            },
+            "destination" : {
+              "displayName" : "Destination",
+              "identifiesControllerService" : false,
+              "name" : "destination",
+              "sensitive" : false
+            },
+            "include-schema" : {
+              "displayName" : "Include Schema",
+              "identifiesControllerService" : false,
+              "name" : "include-schema",
+              "sensitive" : false
+            },
+            "attribute-list" : {
+              "displayName" : "Attribute List",
+              "identifiesControllerService" : false,
+              "name" : "attribute-list",
+              "sensitive" : false
+            }
+          },
+          "retriedRelationships" : [ ],
+          "retryCount" : 10,
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.AttributesToCSV",
+          "yieldDuration" : "1 sec"
+        }, {
           "autoTerminatedRelationships" : [ ],
           "backoffMechanism" : "PENALIZE_FLOWFILE",
           "bulletinLevel" : "WARN",
@@ -40,9 +116,9 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "16b61d1c-6afa-3b7a-93b7-b16a0d5e782a",
+          "groupIdentifier" : "c99a4183-0f2d-32f6-8e6c-bb852e4725a1",
           "identifier" : "0f4cc9d0-ba99-36cb-8d25-5653046af176",
-          "instanceIdentifier" : "0455da46-eaec-3b19-055d-52258c6dcba9",
+          "instanceIdentifier" : "dcc4aeb6-8d53-377a-779c-790c91e3ce0c",
           "maxBackoffPeriod" : "10 mins",
           "name" : "AttributeRollingWindow",
           "penaltyDuration" : "30 sec",
