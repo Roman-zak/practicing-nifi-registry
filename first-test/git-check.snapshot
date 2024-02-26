@@ -16,15 +16,15 @@
         "flowFileConcurrency" : "UNBOUNDED",
         "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
         "funnels" : [ ],
-        "identifier" : "c99a4183-0f2d-32f6-8e6c-bb852e4725a1",
+        "identifier" : "16b61d1c-6afa-3b7a-93b7-b16a0d5e782a",
         "inputPorts" : [ ],
-        "instanceIdentifier" : "e56cc3c1-018d-1000-e24c-555f0c1fd112",
+        "instanceIdentifier" : "a7daca33-018d-1000-96f3-8677791cc81a",
         "labels" : [ ],
         "name" : "ScheduleNotifications",
         "outputPorts" : [ ],
         "position" : {
-          "x" : -16.0,
-          "y" : 336.0
+          "x" : 496.0,
+          "y" : 272.0
         },
         "processGroups" : [ ],
         "processors" : [ {
@@ -40,15 +40,15 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "c99a4183-0f2d-32f6-8e6c-bb852e4725a1",
+          "groupIdentifier" : "16b61d1c-6afa-3b7a-93b7-b16a0d5e782a",
           "identifier" : "55eb280d-ec7d-374c-94f9-d92d64207aa9",
-          "instanceIdentifier" : "4d4b2874-3a6c-3842-1362-fa9767805284",
+          "instanceIdentifier" : "e574322e-018d-1000-27e5-b1447f0fe35e",
           "maxBackoffPeriod" : "10 mins",
           "name" : "Base64EncodeContent",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 931.8673412864046,
-            "y" : 5.7938204318788
+            "x" : 944.0,
+            "y" : -16.0
           },
           "properties" : {
             "Mode" : "Encode"
@@ -83,9 +83,9 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "c99a4183-0f2d-32f6-8e6c-bb852e4725a1",
+          "groupIdentifier" : "16b61d1c-6afa-3b7a-93b7-b16a0d5e782a",
           "identifier" : "c2bb7af5-23c9-3e3e-8448-4a6cf78ec21b",
-          "instanceIdentifier" : "e56cedae-018d-1000-9fee-d384ce63ab16",
+          "instanceIdentifier" : "de75b297-5a6e-327b-5cfc-374a979a1818",
           "maxBackoffPeriod" : "10 mins",
           "name" : "AttributesToCSV",
           "penaltyDuration" : "30 sec",
@@ -159,9 +159,9 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "c99a4183-0f2d-32f6-8e6c-bb852e4725a1",
+          "groupIdentifier" : "16b61d1c-6afa-3b7a-93b7-b16a0d5e782a",
           "identifier" : "0f4cc9d0-ba99-36cb-8d25-5653046af176",
-          "instanceIdentifier" : "dcc4aeb6-8d53-377a-779c-790c91e3ce0c",
+          "instanceIdentifier" : "0455da46-eaec-3b19-055d-52258c6dcba9",
           "maxBackoffPeriod" : "10 mins",
           "name" : "AttributeRollingWindow",
           "penaltyDuration" : "30 sec",
@@ -212,9 +212,9 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "c99a4183-0f2d-32f6-8e6c-bb852e4725a1",
+          "groupIdentifier" : "16b61d1c-6afa-3b7a-93b7-b16a0d5e782a",
           "identifier" : "a69ad6f4-e24a-36cd-913f-cf63f6ee5b82",
-          "instanceIdentifier" : "e575dce4-018d-1000-e724-d5ce2d95fa6f",
+          "instanceIdentifier" : "37cf10a6-28bf-362b-2f69-45169392a889",
           "maxBackoffPeriod" : "10 mins",
           "name" : "InvokeHTTP",
           "penaltyDuration" : "30 sec",
@@ -498,8 +498,8 @@
         } ],
         "remoteProcessGroups" : [ ],
         "variables" : {
-          "test3" : "tst",
-          "testVar" : "54321",
+          "test3" : "tst2",
+          "testVar" : "sht",
           "testVar2" : "98765"
         }
       },
