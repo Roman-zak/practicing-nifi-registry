@@ -160,6 +160,7 @@
         "remoteProcessGroups" : [ ],
         "variables" : {
           "testVar" : "54321",
+          "test3" : "tst",
           "testVar2" : "98765"
         }
       },
